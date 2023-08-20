@@ -22,7 +22,7 @@ app.use(express.json())
 
 // scrivo il path per vedere se il server funziona 
 app.get("/", (_, res) => {
-    return res.status(200).json({message:"online"})
+    return res.status(200).json({message:"im online"})
 })
 
 //avviamo il server
