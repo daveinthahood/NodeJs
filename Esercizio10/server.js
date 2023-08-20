@@ -29,7 +29,7 @@ app.get("/", (_, res) => {
 
 const online = process.env.SERVER_PORT;
 app.listen(online,() => {
-    console.log(`server online ${online}`);
+    console.log(`server online is ${online}`);
 })
 
 // il server funziona!
