@@ -18,9 +18,11 @@ function luckyDraw(player) {
   });
 }
 
+
+
 async function getResult() {
     try {
-        for(  player of ["Tina", "Jorge", "Julien"]){
+        for( player of ["Tina", "Jorge", "Julien"]){
             const response = await luckyDraw(player)
             console.log(response);
         }
