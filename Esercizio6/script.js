@@ -1,7 +1,7 @@
 const figlet = require("figlet");
 
 figlet("F Society", function (error, data) {
-  if (err) {
+  if (error) {
     console.log("Something went wrong...");
     console.dir(err);
     return;
